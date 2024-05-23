@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; 
+    background-color: rgb(151, 37, 37);
+  header {
+    background-color: rgb(151, 37, 37);
+    border: 10px solid black;
+    padding: 2em;
+    /* margin: auto; */
+  }  
+}
+ header img {
+    display:flex;
+    justify-content: center;
+    height: 20%;
+    width:20%;
+    padding: 8em 2em 2em 2em;
+    margin:auto;
+    
+    border: 2em, solid, color rgb(236, 237, 231);
+   
+} 
+h1 {
+    text-align: center;
+
+    font-family: papyrus,Arial, Helvetica, sans-serif;
+}
+a { text-decoration: none; color: inherit; } a:hover { color: chartreuse; }
+a {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    /* justify-content: space-around;
+    flex-direction: column; */
+    min-height: 100vh; 
+    /* background-color: #40E0D0; */
+    border: 10px solid black;
+    text-decoration: none;
+    
+}
+
+.sidebar {
+    display: flexbox;
+    flex-direction: space-around;
+    justify-content: column;
+    background-color: rgb(238, 120, 120);
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border: 5px  solid black;
+    text-decoration: none;
+}
+ .sidebar h2, .sidebar h3 {
+    margin-top: 0;
+    text-align: center;
+}
+/* .sidebar {
+display: flexbox;
+justify-content: space-between; */
+
+/* flex-direction: column; */
+/* } */
+
+.container::after {
+    content: "";
+    width: 1px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.content {
+    flex: 1;
+    background-color: rgb(196, 31, 31);
+    padding: 20px;
+}
+
+.content section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.content h2 {
+    margin-top: 0;
+    text-align: center;
+}
+p {
+    justify-content: left;
+    text-align: center;
+}
+section {
+    display: flexbox;
+    justify-content: space-around;
+    flex-direction: column;
+}
+input {
+    background-color: rgb(245, 158, 158);
+    opacity: 2;
+}
+input:hover {
+
+    background-color: yellow;
+}
+textarea {
+    background-color: rgb(245, 158, 158);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    /* background-color:#40E0D0; */
+    border-top: 1px solid #ddd;
+}
+
