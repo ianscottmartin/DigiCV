@@ -6,13 +6,14 @@ body {
     font-family: Arial, sans-serif;
     min-height: 100vh; 
     background-color: rgb(151, 37, 37);
+    }
   header {
     background-color: rgb(151, 37, 37);
     border: 10px solid black;
     padding: 2em;
     /* margin: auto; */
   }  
-}
+
  header img {
     display:flex;
     justify-content: center;
@@ -33,12 +34,12 @@ a { text-decoration: none; color: inherit; } a:hover { color: chartreuse;
 }
 .container {
     display: flex;
-    /* justify-content: space-around;
-    flex-direction: column; */
-    min-height: 100vh; 
-    /* background-color: #40E0D0; */
-    border: 10px solid black;
-    text-decoration: none;
+    justify-content: space-around;
+    flex-direction: column; 
+     min-height: 100vh;  
+    background-color: #40E0D0; 
+    border: 10px solid black; 
+  text-decoration: none; 
     
 }
 
@@ -56,12 +57,12 @@ a { text-decoration: none; color: inherit; } a:hover { color: chartreuse;
     margin-top: 0;
     text-align: center;
 }
-/* .sidebar {
+.sidebar {
 display: flexbox;
-justify-content: space-between; */
+justify-content: space-between; 
 
-/* flex-direction: column; */
-/* } */
+flex-direction: column; 
+}
 
 .container::after {
     content: "";
@@ -92,11 +93,11 @@ p {
     justify-content: left;
     text-align: center;
 }
-/* section {
+section {
     display: flexbox;
     justify-content: space-around;
     flex-direction: column;
-} */
+} 
 input {
     background-color: rgb(245, 158, 158);
     opacity: 2;
